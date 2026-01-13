@@ -20,3 +20,6 @@ def physical_penetration():
             print(f"💎 捕获瞬时波动，物理重写成功。")
             
         # 没有任何延时，全速冲击物理算力
+if __name__ == "__main__":
+    print("💀 正在剥离平庸逻辑，启动物理暴力搜索模式...")
+    physical_penetration()
