@@ -1,2 +1,14 @@
 nohup: ignoring input
 📡 莲图雷达已校准：正在深度监控 33 个实验对象...
+Traceback (most recent call last):
+  File "/root/Lotus-System/resonance_radar.py", line 33, in <module>
+    asyncio.run(radar_run())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/root/Lotus-System/resonance_radar.py", line 17, in radar_run
+    msg = await ws.recv()
+  File "/usr/local/lib/python3.10/dist-packages/websockets/asyncio/connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
