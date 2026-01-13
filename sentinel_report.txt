@@ -1,6 +1,0 @@
-time: 2026-01-13 10:05:06.769224
-uptime: up 1 day, 3 hours, 7 minutes
-load: 0.00 0.00 0.00 1/182 23680
-memory: total        used        free      shared  buff/cache   available
-Mem:            1957         215         160           1        1581        1558
-Swap:           7899           0        7899

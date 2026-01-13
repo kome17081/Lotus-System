@@ -1,3 +1,0 @@
---- SECURITY UPDATE ANALYSIS ---
-Listing...
-ubuntu-drivers-common/jammy-updates 1:0.9.6.2~0.22.04.10 amd64 [upgradable from: 1:0.9.6.2~0.22.04.9]

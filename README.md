@@ -1,2 +1,0 @@
-# Lotus-System
-for-zero
